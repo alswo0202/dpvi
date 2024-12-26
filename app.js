@@ -96,7 +96,7 @@ async function postData(url, data = {}) {
 
 inspect_button.addEventListener("click", () => {
     inspect_message = input_area.value;
-    postData("https://aiopen.etri.re.kr:8000/WiseNLU", {
+    postData("http://aiopen.etri.re.kr:8000/WiseNLU", {
         argument: {
             analysis_code: "morp",
             text: inspect_message
