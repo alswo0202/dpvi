@@ -79,7 +79,7 @@ async function postData(url, data = {}) {
         method: "POST", // *GET, POST, PUT, DELETE 등
         mode: "cors", // no-cors, *cors, same-origin
         cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-        credentials: "same-origin", // include, *same-origin, omit
+        credentials: "include", // include, *same-origin, omit
         headers: {
             "Content-Type": "application/json",
             "Authorization": "b8f5e1c8-e1d2-4973-8567-c7d4bb2fde22"
