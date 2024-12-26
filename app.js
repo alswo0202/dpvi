@@ -81,6 +81,7 @@ async function postData(url, data = {}) {
         cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
         credentials: "same-origin", // include, *same-origin, omit
         headers: {
+            "Origin" : "http://alswo0202.github.io/dpvi/",
             "Content-Type": "application/json",
             "Authorization": "b8f5e1c8-e1d2-4973-8567-c7d4bb2fde22"
             // 'Content-Type': 'application/x-www-form-urlencoded',
