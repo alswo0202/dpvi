@@ -77,7 +77,7 @@ async function postData(url, data = {}) {
     // 옵션 기본 값은 *로 강조
     const response = await fetch(url, {
         method: "POST", // *GET, POST, PUT, DELETE 등
-        mode: "cors", // no-cors, *cors, same-origin
+        mode: "no-cors", // no-cors, *cors, same-origin
         cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
         credentials: "include", // include, *same-origin, omit
         headers: {
